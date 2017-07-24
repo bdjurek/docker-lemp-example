@@ -1,0 +1,12 @@
+version: "2"
+services:
+
+    # Nginx container
+    nginx:
+        ports:
+            - 80:80
+
+    # MySQL container
+    mysql:
+        ports:
+            - 33066:3306
